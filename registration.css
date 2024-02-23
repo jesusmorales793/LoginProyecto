@@ -1,0 +1,12 @@
+.titleRegistration{
+    text-align: center;
+
+}
+
+.formRegistration{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+    
+
+}
