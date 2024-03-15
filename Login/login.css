@@ -1,5 +1,65 @@
-.main-container{
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
     display: flex;
     justify-content: center;
-    background-color: gainsboro;
+    margin-bottom: 50px;
+}
+
+.main-container {
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.form-style {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+}
+
+.input {
+    border-radius: 7px;
+    border: solid 1px;
+    padding: 10px;
+    border-color: #676767;
+    margin-bottom: 25px;
+}
+
+.button {
+    background-color: #3a63c2;
+    padding: 15px;
+    border-radius: 100px;
+    color: white;
+    border: 0px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #223f82;
+}
+
+.button:active{
+    transform: scale(0.975);
+}
+
+a {
+    text-decoration: none;
+    color: #365cc0;
+}
+
+.sing-up-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
